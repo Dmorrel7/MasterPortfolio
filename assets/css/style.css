@@ -58,11 +58,9 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: bold;
-    font-size: 1.55vw;
+    font-size: 2.55vw;
     color: var(--color2);
 }
-
-/* End of Header */
 
 /* Start of Hero */
 #grad {
@@ -89,8 +87,6 @@ header nav ul li a {
    max-width: 100%
 }
 
-/* End of Hero */
-
 /* Start of About Me*/
 .section-title {
     width: 95%;
@@ -100,6 +96,7 @@ header nav ul li a {
 .sidebar {
     font-size: 46px;
     color: var(--color3);
+    padding-left: 30px;
     
 }
 
@@ -121,10 +118,10 @@ header nav ul li a {
  }
 
  .work-grid-container {
-    width: 70%;
+     width: 70%;
      display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: repeat(3, 200px);
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2, 200px);
      grid-gap: 15px;
      padding-left: 50px;
  }
@@ -135,7 +132,6 @@ header nav ul li a {
  }
 
  .project-title {
-     background-color: var(--color4);
      color: var(--color2);
      font-size: 18px;
      display:flex;
@@ -160,6 +156,7 @@ header nav ul li a {
 
  .contact {
      width: 100%;
+     margin-bottom: 30px;
  }
     
 .contact-wrapper {
@@ -176,9 +173,52 @@ header nav ul li a {
 
 .contact-wrapper p {
     color: var(--color2);
+    font-size: 2.55vw;
 }
 
 .contact-wrapper p a:hover {
     box-shadow: 1px 1px 20px 0px var(--color3);
     transition: .5s;
+}
+
+/* Start of Footer */
+
+footer {
+    padding-left: 30px;
+    background-color: var(--color4);
+    color: var(--color2);
+    font-size: 2.55vw;
+    padding: 10px 0 10px 30px;
+}
+
+@media screen and (max-width:958px) {
+    .work-grid-container {
+        object-fit: cover;
+        width: 100%;
+        max-height: 100%;
+        
+    }
+
+    .contact-wrapper {
+        width: 100%;
+        padding-right: 20px;
+    }
+}
+
+    @media screen and (max-width:718px) {
+    .work-grid-container {
+        object-fit: cover;
+        width: 100%;
+        max-height: 100%;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .contact-wrapper {
+        width: 100%;
+    
+
+    }
 }
