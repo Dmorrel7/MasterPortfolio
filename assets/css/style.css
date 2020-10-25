@@ -127,6 +127,7 @@ header nav ul li a {
  .projects {
      text-decoration: none;
      display: flex;
+     box-shadow: 1px 1px 20px 0px var(--color3);
  }
 
  .project-title {
@@ -230,5 +231,21 @@ footer {
     section.wrap {
         display: block;
         float: left;
+    }
+
+    .hero-h2 {
+        font-size: 18px;
+    }
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width:370px) {
+    .work-grid-container {
+        object-fit: cover;
+        width: 100%;
+        max-height: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 65px);
     }
 }
