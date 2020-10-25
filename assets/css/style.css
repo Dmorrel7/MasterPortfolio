@@ -109,26 +109,47 @@ header nav ul li a {
  /* Start of Work */ 
  .work-grid-wrapper {
      width: 100%;
-     background-color: red;
      display: flex;
      justify-content: center;
+     background-color: red;
+     flex-wrap: wrap;
+     
  }
 
  .work-grid-container {
     width: 70%;
      display: grid;
-     grid-template-columns: 1fr repeat(3, 1fr);
-     grid-template-rows: repeat(3, 1fr);
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3, 200px);
      background-color: blue;
      grid-gap: 15px;
+     padding-left: 50px;
+ }
+
+ .projects {
+     text-decoration: none;
+     display: flex;
  }
 
  .project-title {
-     background-color: green;
+     background-color: var(--color4);
+     color: var(--color2);
+     font-size: 18px;
+     display:flex;
+     align-items: flex-end;
  }
 
  .buddy {
+    background-image: url("../images/buddy.PNG");
+    background-size: cover;
+    width: 100%;
+    grid-column: 1 / span 3;
+ }
 
+ .horiseon {
+     background-image: url("../images/octo.PNG");
+     background-size: cover;
+     grid-column: 1 / span 3;
  }
     
 
