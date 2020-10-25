@@ -13,8 +13,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: darkblue;
-    background-color: var(--color1)
+    color: var(--color4);
+    background-color: var(--color1);
 }
 /* Start of Header */
 header {
@@ -70,17 +70,66 @@ header nav ul li a {
 .hero {
     display: flex;
     flex-wrap: wrap;
-
+    margin-bottom: 30px; 
 }
 
-.hero h2 {
+.hero-h2 {
     display: flex;
     justify-content: flex-end;
+    flex: 1;
+    align-items: flex-end;
     color: var(--color4);
-    
-    
 }
 
 .hero img {
-   height: 100%;
+   height: 80%;
+   max-width: 100%
 }
+
+/* End of Hero */
+
+/* Start of About Me*/
+.section-title {
+    width: 95%;
+    display: flex;
+}
+
+.sidebar {
+    font-size: 46px;
+    
+}
+
+ .text {
+     flex: 1;
+     padding: 0 0 30px 100px;
+ }
+
+ /* End of About Me */
+
+ /* Start of Work */ 
+ .work-grid-wrapper {
+     width: 100%;
+     background-color: red;
+     display: flex;
+     justify-content: center;
+ }
+
+ .work-grid-container {
+    width: 70%;
+     display: grid;
+     grid-template-columns: 1fr repeat(3, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+     background-color: blue;
+     grid-gap: 15px;
+ }
+
+ .project-title {
+     background-color: green;
+ }
+
+ .buddy {
+
+ }
+    
+
+
