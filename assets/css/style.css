@@ -113,6 +113,7 @@ header nav ul li a {
      justify-content: center;
      background-color: red;
      flex-wrap: wrap;
+     margin-bottom: 30px;
      
  }
 
@@ -137,6 +138,7 @@ header nav ul li a {
      font-size: 18px;
      display:flex;
      align-items: flex-end;
+     flex-wrap: wrap;
  }
 
  .buddy {
