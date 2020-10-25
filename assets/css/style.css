@@ -147,7 +147,7 @@ header nav ul li a {
 }
 
  .project-title {
-    color: var(--color2);
+     color: var(--color2);
     font-size: 18px;
     display:flex;
     align-items: flex-end;
@@ -202,7 +202,7 @@ footer {
     padding-left: 30px;
     background-color: var(--color4);
     color: var(--color2);
-    font-size: 2.55vw;
+    font-size: 2vw;
     padding: 10px 0 10px 30px;
 }
 
