@@ -38,6 +38,11 @@ header a {
     color: var(--color4);
 }
 
+header a:hover {
+    box-shadow: 1px 1px 20px 0px var(--color3);
+    transition: .5s;
+} 
+
 header nav {
     margin: 7px 0;
 }
@@ -55,8 +60,6 @@ header nav ul li a {
     font-weight: bold;
     font-size: 1.55vw;
     color: var(--color2);
-    text-decoration: underline;
-    text-underline-position: under;
 }
 
 /* End of Header */
@@ -173,4 +176,9 @@ header nav ul li a {
 
 .contact-wrapper p {
     color: var(--color2);
+}
+
+.contact-wrapper p a:hover {
+    box-shadow: 1px 1px 20px 0px var(--color3);
+    transition: .5s;
 }
