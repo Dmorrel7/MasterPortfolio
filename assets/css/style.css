@@ -128,14 +128,30 @@ header nav ul li a {
      text-decoration: none;
      display: flex;
      box-shadow: 1px 1px 20px 0px var(--color3);
+     position:relative;
  }
 
+ .projects::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(13, 115, 119, .3);
+    position: absolute;
+    background: linear-gradient( rgba(13, 115, 119, .3), var(--color1));
+    opacity: 0;
+    transition: ease-in-out .5s;
+ }
+
+ .work-grid-container:hover .projects::after {
+    opacity: 1;
+}
+
  .project-title {
-     color: var(--color2);
-     font-size: 18px;
-     display:flex;
-     align-items: flex-end;
-     flex-wrap: wrap;
+    color: var(--color2);
+    font-size: 18px;
+    display:flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
  }
 
  .buddy {
