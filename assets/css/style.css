@@ -161,8 +161,8 @@ header nav ul li a {
     grid-column: 1 / span 3;
  }
 
- .horiseon {
-     background-image: url("../images/octo.PNG");
+ .movie-hunt {
+     background-image: url("../images/movie-hunt.png");
      background-size: cover;
      grid-column: 1 / span 3;
  }
