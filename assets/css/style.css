@@ -155,7 +155,7 @@ header nav ul li a {
  }
 
  .draft-room {
-    background-image: url("../images/DraftRoom.png");
+    background-image: url("../images/draft-room.png");
     background-size: cover;
     width: 100%;
     grid-column: 1 / span 3;
