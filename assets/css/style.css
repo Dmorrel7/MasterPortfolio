@@ -154,8 +154,8 @@ header nav ul li a {
     flex-wrap: wrap;
  }
 
- .buddy {
-    background-image: url("../images/buddy.PNG");
+ .draft-room {
+    background-image: url("../images/DraftRoom.png");
     background-size: cover;
     width: 100%;
     grid-column: 1 / span 3;
